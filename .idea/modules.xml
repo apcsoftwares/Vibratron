@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Vibratron.iml" filepath="$PROJECT_DIR$/Vibratron.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vibratron/vibratron.iml" filepath="$PROJECT_DIR$/vibratron/vibratron.iml" />
+    </modules>
+  </component>
+</project>
+

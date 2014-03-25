@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phobos.vibratron.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggleButton"
+            android:layout_gravity="center"
+            android:longClickable="false"
+            android:textOn="@string/stop_text"
+            android:textOff="@string/vibrate_text"/>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/seekBar"
+            android:layout_gravity="center_horizontal|bottom"
+            style="@style/SeekBar"/>
+
+</FrameLayout>
