@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
 	final int maxInt = 300;
 	long pattern[]  = {0,100,maxInt/2};
 	ToggleButton vibrate;
+
 	Vibrator vib;
 	SeekBar intensity;
 
